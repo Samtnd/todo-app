@@ -36,7 +36,7 @@ function App() {
   }
 
   function deleteTodo(id){
-    const updateTodos = [...todos].filter((todo) => todo.id !== id ) //copy the table
+    const updateTodos = [...todos].filter((todo) => todo.id !== id ) //copy the table here
 
     setTodos(updateTodos)
   }
